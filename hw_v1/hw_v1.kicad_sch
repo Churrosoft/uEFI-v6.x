@@ -1,0 +1,378 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "7.99")
+	(uuid "b3feb07e-be80-40e1-bd13-6cd54c2f8b0c")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 246.38 147.32)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2006de7a-ed0a-469a-bee6-85084a7e2756")
+	)
+	(bus_entry
+		(at 243.84 156.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44cc780b-0853-4697-8e74-ca8323394b06")
+	)
+	(bus_entry
+		(at 243.84 153.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc21be00-76a8-4e61-b669-bd5b7929f802")
+	)
+	(bus_entry
+		(at 243.84 151.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94deddc-1f45-49f4-8cdb-527dabeaeb93")
+	)
+	(bus_entry
+		(at 246.38 144.78)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf71847-0725-4021-bb9e-c2fd6a56b6e4")
+	)
+	(wire
+		(pts
+			(xy 246.38 156.21) (xy 251.46 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199d7230-f3db-49de-a523-4aa545d6179a")
+	)
+	(wire
+		(pts
+			(xy 246.38 153.67) (xy 251.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3883c8ca-4131-4d36-ba35-b9a1cdd54df1")
+	)
+	(bus
+		(pts
+			(xy 246.38 143.51) (xy 246.38 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "4b2428ca-c0c6-4655-9c41-c4b637d5f5fe")
+	)
+	(bus
+		(pts
+			(xy 246.38 144.78) (xy 246.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "542aeb00-061e-4b04-8bce-871fbb7511f5")
+	)
+	(bus
+		(pts
+			(xy 243.84 148.59) (xy 243.84 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 102 0 1)
+		)
+		(uuid "56d60460-714e-4ace-b961-b4215afe8d10")
+	)
+	(bus
+		(pts
+			(xy 246.38 144.78) (xy 246.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "6876feef-dcd9-4087-8a11-6798e6831f71")
+	)
+	(wire
+		(pts
+			(xy 248.92 149.86) (xy 251.46 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a92c8e-5cbe-4e7f-9c9c-4358de074f98")
+	)
+	(wire
+		(pts
+			(xy 248.92 147.32) (xy 251.46 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13830e6-8742-437d-9c89-63790db6c3e1")
+	)
+	(bus
+		(pts
+			(xy 246.38 143.51) (xy 246.38 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(uuid "e0473eaa-ac28-4654-83d7-4d989c7150b0")
+	)
+	(wire
+		(pts
+			(xy 246.38 158.75) (xy 251.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91d7deb-ab86-4418-85a1-84da77faa034")
+	)
+	(bus
+		(pts
+			(xy 243.84 156.21) (xy 243.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 102 0 1)
+		)
+		(uuid "f010b34e-b12b-490c-8ff5-57e8c9be4c97")
+	)
+	(bus
+		(pts
+			(xy 243.84 151.13) (xy 243.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 204 102 0 1)
+		)
+		(uuid "fc39f7af-6e4d-4196-ace2-cbd98db9d323")
+	)
+	(sheet
+		(at 251.46 121.92)
+		(size 27.94 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27977e95-ecc9-4124-9dfb-b7b6f545e8f2")
+		(property "Sheetname" "CKP_CMP_Sensors"
+			(at 251.46 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vr_inputs.kicad_sch"
+			(at 251.46 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CKP" input
+			(at 251.46 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "34cb0e9b-a124-446c-aa2d-d0b7d44a430c")
+		)
+		(pin "CMP" input
+			(at 251.46 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b30e9b5a-b465-4422-856f-65732f7705fc")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 144.78)
+		(size 26.67 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "312f3a58-86c6-4c57-9da0-ed62046efef3")
+		(property "Sheetname" "Connector"
+			(at 212.09 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 212.09 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 251.46 144.78)
+		(size 27.94 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fba0052c-362f-4f60-93e5-b9df8221021b")
+		(property "Sheetname" "Injection & ignition drivers"
+			(at 251.46 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmic.kicad_sch"
+			(at 251.46 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SPI2_MISO" input
+			(at 251.46 153.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61d8dd2b-a3df-4c65-82fb-42b19f5ce721")
+		)
+		(pin "PMIC1_ENABLE" input
+			(at 251.46 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e58ad4d-8dfc-4c3f-8dab-5b62193c1fda")
+		)
+		(pin "SPI2_SCK" input
+			(at 251.46 156.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b4c4603-877b-4a75-a295-64c0993cae6b")
+		)
+		(pin "SPI2_MOSI" input
+			(at 251.46 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b2cb926-d0bc-4def-adb9-98b34beccdb1")
+		)
+		(pin "PMIC1_CS" input
+			(at 251.46 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7c1f3a0d-94ee-4e87-b2f3-c1678e15a994")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
