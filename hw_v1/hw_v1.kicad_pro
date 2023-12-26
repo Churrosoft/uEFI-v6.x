@@ -250,7 +250,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "uEFI_v5"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -412,6 +414,18 @@
     [
       "27977e95-ecc9-4124-9dfb-b7b6f545e8f2",
       "CKP_CMP_Sensors"
+    ],
+    [
+      "aca74028-30ce-4304-a4a8-c39cedc5a58f",
+      "Relay & Power Outputs"
+    ],
+    [
+      "c2d53420-5033-4d6b-a79f-3167748d0ce0",
+      "Sensors"
+    ],
+    [
+      "019e8a83-2b05-42df-8207-97dcaa5a8956",
+      "Protoboard"
     ]
   ],
   "text_variables": {}

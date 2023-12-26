@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "uEFI_v5")(type "KiCad")(uri "/home/fdsoftware/churrosoft/openefi/Speeduino_stm32_mini/libs/uEFI_v5.pretty")(options "")(descr ""))
+)
