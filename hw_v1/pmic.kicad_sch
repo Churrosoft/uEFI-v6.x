@@ -5471,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SOP65P1030X245-33N"
+		(property "Footprint" "uEFI_v5:SOP65P1030X245-33N"
 			(at 71.755 100.965 0)
 			(effects
 				(font

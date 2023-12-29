@@ -3372,6 +3372,28 @@
 		)
 		(uuid "51a95cf9-a779-48d5-939a-072fd3ffa794")
 	)
+	(text "El pin de Fault se utiliza para el homming:\nal setear una corriente baja, al chocar contra el multiple de admision\ntendria que subir la corriente del motor => probancando una falla en el driver"
+		(exclude_from_sim no)
+		(at 64.008 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7146af3d-568e-4feb-8c44-29a1de604a5c")
+	)
+	(text "TODO:\nestaria bueno agregarle un led a estas salidas"
+		(exclude_from_sim no)
+		(at 65.278 51.562 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left)
+		)
+		(uuid "938e98d8-4425-42dc-9942-42efa387a523")
+	)
 	(text "Stepper Idle"
 		(exclude_from_sim no)
 		(at 87.63 137.16 0)
