@@ -2634,6 +2634,16 @@
 		)
 		(uuid "882c110f-d814-467d-8abf-120d7a2126a6")
 	)
+	(polyline
+		(pts
+			(xy 74.93 45.72) (xy 74.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1d5824-6d96-43a5-978e-e48cbdc4de8e")
+	)
 	(wire
 		(pts
 			(xy 114.3 73.66) (xy 114.3 91.44)
@@ -3134,6 +3144,16 @@
 		)
 		(uuid "e99c8e46-f2bd-40cf-9685-8f86a32353ac")
 	)
+	(polyline
+		(pts
+			(xy 15.24 39.37) (xy 74.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f156f3f9-b365-40a2-81b5-1e9b4d592626")
+	)
 	(wire
 		(pts
 			(xy 40.64 36.83) (xy 63.5 36.83)
@@ -3223,6 +3243,16 @@
 			(type default)
 		)
 		(uuid "fdf8672b-d1ae-4463-aa47-5ba978152439")
+	)
+	(text "Todos usan de 1/4 - 1/8w, revisar"
+		(exclude_from_sim no)
+		(at 32.512 41.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61f2d1fe-251a-4dd6-8ac8-166e17dc018c")
 	)
 	(label "CKP_VR"
 		(at 57.8104 113.792 180)
