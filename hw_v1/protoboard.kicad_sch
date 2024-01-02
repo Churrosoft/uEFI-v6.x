@@ -2351,6 +2351,28 @@
 			)
 		)
 	)
+	(global_label "ext_a1_in"
+		(shape input)
+		(at 153.67 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eab9ea8-2113-4731-aa9a-16da560999a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.5451 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PROTO-1"
 		(shape input)
 		(at 62.23 41.91 180)
@@ -2367,6 +2389,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ext_a0_in"
+		(shape input)
+		(at 153.67 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "134f208b-8975-4766-ab52-717fc707f2d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.5451 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2510,30 +2554,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "ext_a0_in"
-		(shape input)
-		(at 153.67 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38fbd24d-bad3-4ca7-ae18-b709fce5ef80")
-	)
-	(hierarchical_label "ext_a1_in"
-		(shape input)
-		(at 153.67 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5d64698-04f8-429e-8fef-8ebbf761385f")
 	)
 	(symbol
 		(lib_id "power:+3V3")

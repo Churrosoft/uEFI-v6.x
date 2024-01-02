@@ -5177,6 +5177,28 @@
 			)
 		)
 	)
+	(global_label "ext_a1_in"
+		(shape input)
+		(at 156.21 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b2facaa-5455-4544-bc3f-44e9125b1a05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.3349 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "O2_Sensor"
 		(shape input)
 		(at 68.58 111.76 180)
@@ -5189,6 +5211,26 @@
 		(uuid "8ce980ae-50e4-45b2-9816-20ed82678f7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAP_Sensor"
+		(shape input)
+		(at 29.21 111.76 180)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right)
+		)
+		(uuid "9e56e651-3688-4773-9b7c-453969f78ea6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,21 +5259,22 @@
 			)
 		)
 	)
-	(global_label "CH_MAP"
+	(global_label "ext_a0_in"
 		(shape input)
-		(at 28.575 111.76 180)
+		(at 113.03 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "df483fcf-cf8b-462a-87a4-cbb2ff53c101")
+		(uuid "ec58057f-84fe-46e8-9372-2702c44b6d4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.235 111.7045 0)
+			(at 101.1549 109.22 0)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
@@ -5334,18 +5377,6 @@
 		)
 		(uuid "43f052bb-cc93-41d8-aef0-1d4dbe14b2d6")
 	)
-	(hierarchical_label "ext_a0_in"
-		(shape input)
-		(at 113.03 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "47609e0f-b1f0-4685-8c15-30976d54d277")
-	)
 	(hierarchical_label "SPI2_MISO"
 		(shape input)
 		(at 259.08 39.37 180)
@@ -5381,18 +5412,6 @@
 			(justify right)
 		)
 		(uuid "51acffb0-5e03-4397-aa0e-26f4a8be4f44")
-	)
-	(hierarchical_label "ext_a1_in"
-		(shape input)
-		(at 156.21 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "538e9ebb-613c-4f54-82c0-f9ac83b395ff")
 	)
 	(hierarchical_label "CLT"
 		(shape input)
