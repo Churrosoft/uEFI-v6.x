@@ -4917,28 +4917,6 @@
 		)
 		(uuid "602db2a5-7f39-4d8e-8f2a-5e8add227fb4")
 	)
-	(label "AUX_CH6_m"
-		(at 245.11 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "610317ba-7029-4de3-af0e-318294494542")
-	)
-	(label "AUX_CH4_m"
-		(at 224.79 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "7160d309-d233-4cfb-bfd5-b040246aa362")
-	)
 	(label "CH_TPS_m"
 		(at 53.975 72.39 180)
 		(fields_autoplaced yes)
@@ -4960,17 +4938,6 @@
 			(justify right bottom)
 		)
 		(uuid "8ac0ea74-f983-4f0a-8d23-e3bb9437bf9d")
-	)
-	(label "AUX_CH2_m"
-		(at 224.79 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "94dfdee1-ed09-4de5-8947-45ec3d2591ea")
 	)
 	(label "CH_TPS_m"
 		(at 224.79 105.41 180)
@@ -5016,17 +4983,6 @@
 		)
 		(uuid "b853fe67-a96e-4975-82c3-514d914f785f")
 	)
-	(label "AUX_CH1_m"
-		(at 224.79 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "bb08b54d-6006-4040-aa1f-0a1789fdf530")
-	)
 	(label "CH_VBATT_m"
 		(at 110.49 52.07 180)
 		(fields_autoplaced yes)
@@ -5071,17 +5027,6 @@
 		)
 		(uuid "be647e3f-03bd-449b-8d45-175b47aa1257")
 	)
-	(label "AUX_CH3_m"
-		(at 224.79 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "c478c2d2-7d4f-491d-bdc6-b086ef4ed8f9")
-	)
 	(label "CH_O2_m"
 		(at 92.075 111.76 180)
 		(fields_autoplaced yes)
@@ -5092,17 +5037,6 @@
 			(justify right bottom)
 		)
 		(uuid "d9b65417-d2a1-4bfc-b00b-db2a8f93de42")
-	)
-	(label "AUX_CH8_m"
-		(at 245.11 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcfec009-aa5f-4574-957e-56891ab4ac41")
 	)
 	(label "CH_MAP_m"
 		(at 245.11 102.87 0)
@@ -5125,17 +5059,6 @@
 			(justify left bottom)
 		)
 		(uuid "e7fbe709-590a-4f59-a2bc-dc3f9a0a3fa9")
-	)
-	(label "AUX_CH5_m"
-		(at 224.79 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "f81bfc48-8938-405d-8fa4-735b7fcf84d3")
 	)
 	(global_label "TPS_Sensor"
 		(shape input)
@@ -5173,6 +5096,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ext_a1_in"
+		(shape input)
+		(at 245.11 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5870bf31-9116-46e2-8fb3-7112b528a11b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.9851 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5255,6 +5200,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ext_a0_in"
+		(shape input)
+		(at 245.11 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2f60772-3d22-48d0-ac8b-937b9ff90cdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.9851 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

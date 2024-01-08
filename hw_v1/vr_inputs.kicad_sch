@@ -2059,6 +2059,12 @@
 		(uuid "115c6b25-dd6f-4ebe-af08-78485482513d")
 	)
 	(junction
+		(at 62.357 93.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2626f305-4ab3-4ae5-bbe7-142dd489e14e")
+	)
+	(junction
 		(at 88.265 93.345)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -2137,6 +2143,12 @@
 		(uuid "a4923f59-b472-4331-86a3-02512bd8d65b")
 	)
 	(junction
+		(at 62.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7154cf9-9693-4bc4-a403-b0bd261c2413")
+	)
+	(junction
 		(at 139.7 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2159,12 +2171,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "cbe2dc63-0457-4905-84b3-766ca0003599")
-	)
-	(junction
-		(at 61.595 93.345)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "d247abc0-f372-42a1-9d97-ad8a6b862c22")
 	)
 	(junction
 		(at 114.3 73.66)
@@ -2233,6 +2239,16 @@
 			(type solid)
 		)
 		(uuid "07de4ced-ee2f-4942-a96d-11f4c4ad691f")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 62.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "08dfde1c-e1cc-40b2-a8fb-14efc3d84954")
 	)
 	(wire
 		(pts
@@ -2426,6 +2442,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.357 93.345) (xy 61.595 93.345)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3f6fbbbb-90e7-4557-82bc-e6b57f0dc116")
+	)
+	(wire
+		(pts
 			(xy 135.89 177.8) (xy 135.89 180.34)
 		)
 		(stroke
@@ -2496,13 +2522,13 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 93.345) (xy 64.77 93.345)
+			(xy 62.357 93.345) (xy 64.77 93.345)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
-		(uuid "58d6b1df-e3ba-4516-9c51-187372f92b3d")
+		(uuid "530bb41b-23da-4748-bf2b-f54bf0788353")
 	)
 	(wire
 		(pts
@@ -2586,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 92.964) (xy 61.595 93.345)
+			(xy 62.357 92.71) (xy 62.357 93.345)
 		)
 		(stroke
 			(width 0)
@@ -2653,6 +2679,16 @@
 			(type solid)
 		)
 		(uuid "8f216183-e7d3-4c9f-964c-d92523309dd4")
+	)
+	(wire
+		(pts
+			(xy 57.15 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955605cc-fe3d-45dc-ae14-7bb78da7e907")
 	)
 	(wire
 		(pts
@@ -3066,23 +3102,13 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 92.964) (xy 61.595 92.964)
+			(xy 57.15 92.71) (xy 62.357 92.71)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(uuid "de2151ab-5bbc-4f4d-bcb7-be5a05ded82a")
-	)
-	(wire
-		(pts
-			(xy 62.23 69.85) (xy 62.23 67.31)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "dea53862-a730-4642-a3ab-33d693645e6b")
 	)
 	(wire
 		(pts
@@ -3320,49 +3346,7 @@
 		)
 		(uuid "bec75f27-d2e6-4ec6-a163-00d3150293d8")
 	)
-	(global_label "CKP+"
-		(shape input)
-		(at 73.025 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3806f52c-6487-434a-83c4-c7dee3eab901")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.2295 142.1606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CKP-"
-		(shape input)
-		(at 56.388 92.964 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e1f69ef-b1b5-4323-943d-5ae992903642")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.5925 92.8846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CMP+"
+	(global_label "CAM+"
 		(shape input)
 		(at 41.91 50.8 180)
 		(effects
@@ -3371,35 +3355,73 @@
 			)
 			(justify right)
 		)
-		(uuid "abdbbcda-b7a6-47cb-ac0e-0136630b209c")
+		(uuid "1f06d973-6399-47e8-8e87-d97c74747ba7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.9331 50.7206 0)
+			(at 41.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "CMP-"
+	(global_label "CAM-"
 		(shape input)
-		(at 62.23 67.31 180)
+		(at 57.15 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "bda336dc-7d4f-4688-93cc-11ff8ba7dd0c")
+		(uuid "7b977b60-4dc3-480f-98d0-5282c7bd2e8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.2531 67.2306 0)
+			(at 57.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CRANK+"
+		(shape input)
+		(at 73.66 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96f224ad-9c94-442a-b51b-e20aad8d8f67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CRANK-"
+		(shape input)
+		(at 57.15 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d94a9dd4-6fbf-4400-868d-bc6341fb7ac3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4315,7 +4337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 89.535 52.705 0)
 			(effects
 				(font
@@ -4822,7 +4844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 46.99 0)
 			(effects
 				(font
@@ -4898,7 +4920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 67.31 113.665 0)
 			(effects
 				(font
@@ -6092,7 +6114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.265 99.06 0)
 			(effects
 				(font
@@ -6526,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 67.31 93.345 0)
 			(effects
 				(font
@@ -6680,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 67.31 0)
 			(effects
 				(font
