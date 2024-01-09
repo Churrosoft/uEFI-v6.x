@@ -7672,16 +7672,16 @@
 	)
 	(global_label "VVT-OUT"
 		(shape input)
-		(at 67.31 168.91 0)
+		(at 57.15 179.07 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "351fb8d1-262e-4406-b001-00cdf14210ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 168.91 0)
+			(at 57.15 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,16 +8866,16 @@
 	)
 	(global_label "FUELPUMP-OUT"
 		(shape input)
-		(at 57.15 179.07 270)
+		(at 64.77 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d3dfd862-ae04-4f5a-8313-81afff64caa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.15 179.07 0)
+			(at 64.77 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,7 +9054,7 @@
 	)
 	(global_label "IDLE-OUT"
 		(shape input)
-		(at 64.77 166.37 0)
+		(at 67.31 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9063,7 +9063,7 @@
 		)
 		(uuid "eedc2497-20ef-4749-b5ce-a0f446d44cce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 166.37 0)
+			(at 67.31 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
