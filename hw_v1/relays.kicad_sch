@@ -3353,7 +3353,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 152.4) (xy 254 152.4)
+			(xy 248.92 152.4) (xy 257.81 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3416,26 +3416,6 @@
 		)
 		(uuid "b772968e-7ffb-419b-9c21-f7363f90785a")
 	)
-	(global_label "12V-SW"
-		(shape input)
-		(at 254 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0fce018e-879c-42a2-b4ac-40cb493de1f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FAN2-OUT"
 		(shape input)
 		(at 113.03 82.55 0)
@@ -3496,6 +3476,28 @@
 			)
 		)
 	)
+	(global_label "STEPPER-B1"
+		(shape input)
+		(at 109.22 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e942818-806f-4228-b09e-cc8827a6e505")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.5422 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FUELPUMP-OUT"
 		(shape input)
 		(at 113.03 77.47 0)
@@ -3516,82 +3518,68 @@
 			)
 		)
 	)
-	(global_label "STEP-A2"
+	(global_label "STEPPER-A1"
 		(shape input)
-		(at 109.22 161.29 0)
+		(at 109.22 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "726ad0dd-b540-4c12-9082-bcbfb95b3ad9")
+		(uuid "78cacbad-3b6b-489b-ba6a-604bbbfe039b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 161.29 0)
+			(at 124.3608 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "STEP-B1"
-		(shape input)
-		(at 109.22 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7860254d-7514-4088-a52f-65fb68fbbead")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STEP-B2"
+	(global_label "STEPPER-B2"
 		(shape input)
 		(at 109.22 168.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "81480710-c60a-4b2b-b06b-8f605b5bf42d")
+		(uuid "ada63721-4c92-40b7-ab95-1f2aebea9f2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 168.91 0)
+			(at 124.5422 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "12V-SW"
+	(global_label "STEPPER-A2"
 		(shape input)
-		(at 254 152.4 0)
+		(at 109.22 161.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b257df33-8fc0-4438-bac9-62c0361a4fb3")
+		(uuid "ccbafec6-ccc9-4810-8506-eb7d2a977119")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 152.4 0)
+			(at 124.3608 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3648,26 +3636,6 @@
 		(uuid "eed3f3a6-ebf1-40b2-97cf-107f7da8518a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STEP-A1"
-		(shape input)
-		(at 109.22 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe2b8297-a57d-4b28-b068-b7f415150bcc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.22 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,6 +5171,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 257.81 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c3d591f-850f-4f05-af2d-82f9ac8739c9")
+		(property "Reference" "#PWR0174"
+			(at 257.81 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 257.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 257.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba150eb9-abd1-428b-9eb1-bb29609cceaa")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 205.74 137.16 270)
 		(unit 1)
@@ -6094,6 +6128,72 @@
 			(project "hw_v1"
 				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 254 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9cd8682-85fc-4516-9ea7-e292f9c6227f")
+		(property "Reference" "#PWR0173"
+			(at 254 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 254 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07acf844-df01-4d64-b2a9-f10aee09c510")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)

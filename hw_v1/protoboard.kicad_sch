@@ -2475,7 +2475,7 @@
 			)
 		)
 	)
-	(global_label "MCU-D20"
+	(global_label "MCU-D0"
 		(shape input)
 		(at 170.18 52.07 0)
 		(effects
@@ -2495,7 +2495,7 @@
 			)
 		)
 	)
-	(global_label "MCU-D21"
+	(global_label "MCU-D1"
 		(shape input)
 		(at 153.67 54.61 0)
 		(effects
@@ -2590,72 +2590,6 @@
 			(justify right)
 		)
 		(uuid "8ec032d8-1aa9-4031-af0e-d771796a3e6a")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 60.96 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0575a13d-fba9-48be-9cf4-22048ecaba80")
-		(property "Reference" "#PWR045"
-			(at 60.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 60.96 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 60.96 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ae65b11-d6d8-4c61-a87d-a0fd3ed2a878")
-		)
-		(instances
-			(project "hw_v1"
-				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/019e8a83-2b05-42df-8207-97dcaa5a8956"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -3423,6 +3357,72 @@
 			(project "hw_v1"
 				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/019e8a83-2b05-42df-8207-97dcaa5a8956"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 60.96 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f3a9b76-095e-4973-b883-b53a22388dc4")
+		(property "Reference" "#PWR0153"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 60.96 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac8e3c62-263f-453b-ad4b-b622e271f274")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/019e8a83-2b05-42df-8207-97dcaa5a8956"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
