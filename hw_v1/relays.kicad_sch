@@ -1,15 +1,15 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "85b4f9db-6dcd-42fa-bd68-ca8eee6bad70")
 	(paper "A4")
 	(title_block
 		(title "μEFI (Speeduino FW compatible)")
 		(date "2023-12-25")
-		(rev "v6")
+		(rev "v6.1")
 		(company "Churrosoft ®")
-		(comment 1 "CERN-OHL-S-2.0 license\n")
+		(comment 1 "CERN-OHL-S-2.0 license")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
@@ -3978,7 +3978,7 @@
 		(at 78.74 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4181cec3-57dc-41ed-9597-06598b47b4cd")
@@ -4172,7 +4172,7 @@
 		(at 81.28 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4510,7 +4510,7 @@
 		(at 81.28 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5105,7 +5105,7 @@
 		(at 81.28 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5579,6 +5579,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C556397"
+			(at 248.92 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field10" ""
+			(at 248.92 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26bde429-a421-45b9-b26b-632a6de64556")
 		)
@@ -5796,7 +5814,7 @@
 		(at 118.11 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c9150d0f-1afc-4835-9145-df697a1a97a6")
@@ -5860,7 +5878,7 @@
 		(at 96.52 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cb17c2e2-d7a5-40b0-af54-32973e9f367f")
@@ -6282,6 +6300,24 @@
 		)
 		(property "URL" "https://www.digikey.com/en/products/detail/on-semiconductor/S110FA/5892098"
 			(at 210.82 -113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C556397"
+			(at 248.92 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field10" ""
+			(at 248.92 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)

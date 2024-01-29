@@ -492,7 +492,9 @@
     "pinned_footprint_libs": [
       "uEFI_v5"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "uEFI_v5"
+    ]
   },
   "meta": {
     "filename": "hw_v1.kicad_pro",
