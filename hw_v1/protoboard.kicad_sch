@@ -3942,7 +3942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 169.418 46.99 90)
 			(effects
 				(font
@@ -3998,6 +3998,15 @@
 		)
 		(property "Digikey Part Number" "311-1.00KCRCT-ND"
 			(at 323.85 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 167.64 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)

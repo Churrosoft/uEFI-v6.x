@@ -1,15 +1,15 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "85b4f9db-6dcd-42fa-bd68-ca8eee6bad70")
 	(paper "A4")
 	(title_block
 		(title "μEFI (Speeduino FW compatible)")
 		(date "2023-12-25")
-		(rev "v6")
+		(rev "v6.1")
 		(company "Churrosoft ®")
-		(comment 1 "CERN-OHL-S-2.0 license\n")
+		(comment 1 "CERN-OHL-S-2.0 license")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
@@ -3842,6 +3842,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 205.74 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "216e728c-462a-4054-af84-f23ffd756cc7")
+		(property "Reference" "R57"
+			(at 210.312 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 205.74 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 205.74 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 283.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+			(at 283.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 283.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-1.00KCRCT-ND"
+			(at 283.21 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 205.74 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f32ee83-c660-4491-8ecf-297e177ff1a5")
+		)
+		(pin "2"
+			(uuid "82c6091b-dab6-487f-980f-cbb1fda0f5e1")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 73.66 149.86 0)
 		(unit 1)
@@ -4232,6 +4344,92 @@
 			(project "hw_v1"
 				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
 					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 144.78 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d0a7d28-2c43-4583-b94e-131176311767")
+		(property "Reference" "R55"
+			(at 202.1078 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 199.7964 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.072 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 196.85 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "44"
+			(at 196.85 144.78 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdf66dc6-b8ab-49d8-b215-fb41c31b0590")
+		)
+		(pin "2"
+			(uuid "f33b5ca0-4c4f-45ad-a70a-4dbc715bfe29")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4662,111 +4860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 196.85 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67f09864-3d93-4628-8133-8dd1f6889322")
-		(property "Reference" "R56"
-			(at 198.628 143.6116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 198.628 145.923 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 198.628 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "311-100KCRCT-ND"
-			(at 382.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 382.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
-			(at 382.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
-			(at 382.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "629155f9-c7d4-42ec-9aa1-9f324754d23b")
-		)
-		(pin "2"
-			(uuid "bd0c068a-ad3b-47fb-b0a8-4828b30129e0")
-		)
-		(instances
-			(project "hw_v1"
-				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 240.03 133.35 90)
 		(unit 1)
@@ -4827,111 +4920,6 @@
 			(project "hw_v1"
 				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
 					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 196.85 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d3b7660-a243-43e9-8ab1-1ee5adb18eec")
-		(property "Reference" "R55"
-			(at 198.628 120.7516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 198.628 123.063 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 198.628 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "311-100KCRCT-ND"
-			(at 382.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 382.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
-			(at 382.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
-			(at 382.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ad64772-82fe-42f0-ad3e-e6a479d40614")
-		)
-		(pin "2"
-			(uuid "a9da2dbc-835c-4b31-9e52-88604292abb6")
-		)
-		(instances
-			(project "hw_v1"
-				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
-					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -5231,109 +5219,6 @@
 			(project "hw_v1"
 				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
 					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 205.74 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92d4dfc4-1fbb-41df-9046-3bd0c0d7e66a")
-		(property "Reference" "R58"
-			(at 205.74 131.9022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 205.74 134.2136 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 205.74 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 154.94 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 154.94 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 154.94 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 154.94 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "471d1909-8699-4c35-8e01-a64e11d7225a")
-		)
-		(pin "2"
-			(uuid "b055a877-52cf-4fdc-ab92-838e7ab3d694")
-		)
-		(instances
-			(project "hw_v1"
-				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
-					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -6050,31 +5935,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 129.54 270)
+		(at 196.85 121.92 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d3892b29-ec55-4921-8327-98ad4151de4c")
-		(property "Reference" "R57"
-			(at 205.74 124.2822 90)
+		(uuid "d70eeb1e-4409-461b-a389-e57be78ec05f")
+		(property "Reference" "R56"
+			(at 202.1078 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 205.74 126.5936 90)
+		(property "Value" "100k"
+			(at 199.7964 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 205.74 127.762 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.072 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +5969,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 129.54 0)
+			(at 196.85 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +5978,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 129.54 0)
+			(at 196.85 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,8 +5986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 162.56 -64.77 0)
+		(property "LCSC" "C25803"
+			(at 196.85 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,43 +5995,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 162.56 -64.77 0)
+		(property "STOCK" "44"
+			(at 196.85 121.92 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 162.56 -64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 162.56 -64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "190463ec-ebf6-4660-8f13-eb8cb6c290f4")
+			(uuid "46704421-7636-458b-8a15-48d82a3c447f")
 		)
 		(pin "2"
-			(uuid "957f2f07-85d3-4c42-adea-56a306eb83f2")
+			(uuid "cffd851b-c4eb-49aa-b6f1-ac0d64dea5f5")
 		)
 		(instances
 			(project "hw_v1"
 				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
-					(reference "R57")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -6335,6 +6203,118 @@
 			(project "hw_v1"
 				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
 					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f606a4aa-2504-44ae-9c24-22b24569f730")
+		(property "Reference" "R58"
+			(at 205.74 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 205.74 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 205.74 135.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 128.27 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+			(at 128.27 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 128.27 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "311-1.00KCRCT-ND"
+			(at 128.27 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 205.74 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f89c26-e8f5-49a5-92fb-ab42bfafcf76")
+		)
+		(pin "2"
+			(uuid "91f54312-3eb4-424a-adc3-4c59b1815d32")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
+					(reference "R58")
 					(unit 1)
 				)
 			)

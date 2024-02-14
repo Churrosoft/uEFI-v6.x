@@ -1,15 +1,15 @@
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(uuid "8c4e5e49-562e-4670-886a-bd7041599a5b")
 	(paper "A4")
 	(title_block
 		(title "μEFI (Speeduino FW compatible)")
 		(date "2023-12-25")
-		(rev "v6")
+		(rev "v6.1")
 		(company "Churrosoft ®")
-		(comment 1 "CERN-OHL-S-2.0 license\n")
+		(comment 1 "CERN-OHL-S-2.0 license")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

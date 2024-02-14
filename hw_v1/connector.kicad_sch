@@ -6821,6 +6821,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 162.56) (xy 86.36 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d21457d-a857-4508-afb2-049513b572a7")
+	)
+	(wire
+		(pts
 			(xy 35.56 139.7) (xy 35.56 137.16)
 		)
 		(stroke
@@ -7551,6 +7561,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 166.37) (xy 102.87 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeba4323-c665-4a0a-be46-b6c75b4aaae0")
+	)
+	(wire
+		(pts
 			(xy 208.28 119.38) (xy 208.28 120.65)
 		)
 		(stroke
@@ -7948,6 +7968,26 @@
 		(uuid "08a8ef85-ae77-4020-925e-0e09b3cd14bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CEL-OUT"
+		(shape input)
+		(at 86.36 162.56 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0cc7c72e-e8db-4743-b1ad-656bc8c81442")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8726,7 @@
 	)
 	(global_label "PROTO-5"
 		(shape input)
-		(at 102.87 166.37 180)
+		(at 93.98 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8695,7 +8735,7 @@
 		)
 		(uuid "7651f47e-c4b4-40bf-a933-21a44a6994bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 166.37 0)
+			(at 93.98 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14854,7 +14894,7 @@
 		(at 142.24 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
