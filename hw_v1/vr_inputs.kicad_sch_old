@@ -3712,8 +3712,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700pF"
-			(at 142.0242 161.1693 0)
+		(property "Value" "4.7nF"
+			(at 141.986 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C576950"
+		(property "LCSC" "C106218"
 			(at 139.7 160.02 0)
 			(effects
 				(font

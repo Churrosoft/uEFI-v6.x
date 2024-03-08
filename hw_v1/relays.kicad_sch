@@ -122,6 +122,163 @@
 				)
 			)
 		)
+		(symbol "Device:CP_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -2579,6 +2736,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 143.51) (xy 96.52 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05accea4-074e-47b6-a9c8-e05475565946")
+	)
+	(wire
+		(pts
 			(xy 177.8 76.2) (xy 177.8 77.47)
 		)
 		(stroke
@@ -4365,7 +4532,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 96.52 146.05 0)
+		(at 96.52 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4374,7 +4541,7 @@
 		(fields_autoplaced yes)
 		(uuid "3690008a-1bce-4cc9-9722-2b2423e42064")
 		(property "Reference" "#PWR0139"
-			(at 96.52 149.86 0)
+			(at 96.52 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4550,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 96.52 140.97 0)
+			(at 96.52 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4391,7 +4558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 146.05 0)
+			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 146.05 0)
+			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4576,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 146.05 0)
+			(at 96.52 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,6 +5600,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 114.3 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d9bb12-2fde-403d-96b5-38652384c434")
+		(property "Reference" "#PWR0179"
+			(at 114.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 114.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a049de33-b71c-4710-be60-30635933f990")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
+					(reference "#PWR0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 153.67 88.9 90)
 		(mirror x)
@@ -5854,6 +6087,149 @@
 			(project "hw_v1"
 				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
 					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:CP_Small")
+		(at 114.3 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa560575-9901-4a8f-86be-f55f7ef37b59")
+		(property "Reference" "C10"
+			(at 116.5352 146.1516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF ±20% 35V"
+			(at 116.5352 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C141427"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "927b4a90-8b86-4cf0-a89b-56c1f1399ba7")
+		)
+		(pin "2"
+			(uuid "24ad71af-3963-4396-b3fe-a6713052c240")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab3dab75-2807-4f01-a9f9-a77ce68c3786")
+		(property "Reference" "#PWR0180"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.427 154.2542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77dafe74-3f10-457b-8ef8-b672774206dd")
+		)
+		(instances
+			(project "hw_v1"
+				(path "/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/aca74028-30ce-4304-a4a8-c39cedc5a58f"
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
