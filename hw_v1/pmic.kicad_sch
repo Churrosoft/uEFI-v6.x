@@ -4424,7 +4424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 134.62 0)
 			(effects
 				(font
@@ -4451,7 +4451,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17414"
+		(property "LCSC" "C115324"
 			(at 105.41 134.62 90)
 			(effects
 				(font
@@ -4802,7 +4802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 241.3 40.005 0)
 			(effects
 				(font
@@ -4811,7 +4811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 236.855 63.5 0)
 			(effects
 				(font
@@ -5314,7 +5314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 241.3 42.545 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 236.855 66.04 0)
 			(effects
 				(font
@@ -5485,7 +5485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 241.3 34.925 0)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 236.855 58.42 0)
 			(effects
 				(font
@@ -5590,7 +5590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148"
 			(at 241.3 37.465 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 236.855 60.96 0)
 			(effects
 				(font

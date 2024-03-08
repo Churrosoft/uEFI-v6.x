@@ -4836,7 +4836,7 @@
 				)
 			)
 		)
-		(property "Value" "10K 1/2W"
+		(property "Value" "10k"
 			(at 68.58 44.3419 90)
 			(effects
 				(font
@@ -4844,7 +4844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 46.99 0)
 			(effects
 				(font
@@ -4871,7 +4871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2974059"
+		(property "LCSC" "C115324"
 			(at 68.58 46.99 90)
 			(effects
 				(font
@@ -4912,7 +4912,7 @@
 				)
 			)
 		)
-		(property "Value" "10K 1/2W"
+		(property "Value" "10k"
 			(at 67.31 111.0169 90)
 			(effects
 				(font
@@ -4920,7 +4920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 113.665 0)
 			(effects
 				(font
@@ -4947,7 +4947,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2974059"
+		(property "LCSC" "C115324"
 			(at 67.31 113.665 90)
 			(effects
 				(font
@@ -6540,7 +6540,7 @@
 				)
 			)
 		)
-		(property "Value" "10K 1/2W"
+		(property "Value" "10k"
 			(at 67.31 90.6969 90)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 93.345 0)
 			(effects
 				(font
@@ -6575,7 +6575,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2974059"
+		(property "LCSC" "C115324"
 			(at 67.31 93.345 90)
 			(effects
 				(font
@@ -6694,7 +6694,7 @@
 				)
 			)
 		)
-		(property "Value" "10K 1/2W"
+		(property "Value" "10k"
 			(at 68.58 64.6619 90)
 			(effects
 				(font
@@ -6702,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 67.31 0)
 			(effects
 				(font
@@ -6729,7 +6729,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2974059"
+		(property "LCSC" "C115324"
 			(at 68.58 67.31 90)
 			(effects
 				(font
