@@ -10440,7 +10440,7 @@
 				)
 			)
 		)
-		(property "Value" "90k"
+		(property "Value" "48.7k"
 			(at 60.96 46.482 90)
 			(effects
 				(font
@@ -16061,7 +16061,7 @@
 				)
 			)
 		)
-		(property "Value" "900R"
+		(property "Value" "42.2k"
 			(at 68.58 46.482 90)
 			(effects
 				(font
