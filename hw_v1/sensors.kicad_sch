@@ -5532,6 +5532,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "ICS-000346-00"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed8b12d5-2a0a-42eb-a54d-34c39b4a1c52")
 		)
@@ -5811,6 +5820,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000339-00"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af8c5d9e-fdeb-4b80-b598-d60b1d0a1e94")
 		)
@@ -5923,6 +5941,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000339-00"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb85851a-7a33-4a49-bd0b-e4a2b545e76b")
 		)
@@ -5992,11 +6019,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C114564"
 			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000077-00"
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -6072,6 +6108,15 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 31.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "CAP-000175-00"
 			(at 31.75 40.64 0)
 			(effects
 				(font
@@ -6216,6 +6261,15 @@
 		)
 		(property "LCSC" "C7975"
 			(at 135.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000346-00"
+			(at 135.89 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,6 +6434,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000341-00"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "401bc9d0-63be-4741-8a3d-b0a0e17d27aa")
 		)
@@ -6492,6 +6555,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000342-00"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "339daaef-aa25-4c39-83b0-4fb4a73590ae")
 		)
@@ -6597,6 +6669,15 @@
 		)
 		(property "LCSC" "C17638"
 			(at 159.8422 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000342-00"
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,6 +6994,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000339-00"
+			(at 118.11 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbd98a26-d48d-4ea6-9e51-779eb04d7c62")
 		)
@@ -7058,6 +7148,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000175-00"
+			(at 274.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fa6f0b7-e034-4c91-8a2c-3d060bfc525c")
 		)
@@ -7129,6 +7228,15 @@
 		)
 		(property "LCSC" "C21120"
 			(at 87.63 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "CAP-000273-00"
+			(at 86.995 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,6 +7381,15 @@
 		)
 		(property "LCSC" "C7975"
 			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000346-00"
+			(at 196.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,6 +7573,15 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000338-00"
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7681,7 +7807,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2e4bb5d7-ec4c-473b-88d1-c66814ac9c83")
 		(property "Reference" "TP9"
@@ -7872,6 +7998,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000273-00"
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a017ed3f-bf48-40f0-b74a-8d4ee7352799")
 		)
@@ -7984,6 +8119,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000339-00"
+			(at 116.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f06ec3e-2f32-41aa-a61c-138513306743")
 		)
@@ -8063,6 +8207,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000175-00"
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03971c53-6065-4e33-a26a-d9e5803f6e52")
 		)
@@ -8134,6 +8287,15 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "CAP-000175-00"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -8418,6 +8580,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "ICS-000357-00"
+			(at 269.24 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4277b38-ba3d-4316-9541-d2e8375c0738")
 		)
@@ -8514,6 +8685,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000273-00"
+			(at 45.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f02c0587-a0ff-45b6-acd0-c2af1b8b70fe")
 		)
@@ -8592,6 +8772,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000273-00"
+			(at 81.915 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01fe1d78-42a8-457f-a0d4-9bde8a968c6f")
 		)
@@ -8614,7 +8803,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "580c6cee-6767-4679-94ef-7da8f8db8eee")
 		(property "Reference" "TP16"
@@ -8683,7 +8872,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5a7f5ddd-c7ed-459b-a4eb-09f82e7fc7a8")
 		(property "Reference" "TP11"
@@ -8874,6 +9063,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000338-00"
+			(at 34.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a7332eb-37eb-4692-9e9d-573c9d30c0fe")
 		)
@@ -8896,7 +9094,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5e0cf66a-ad84-4a09-9ab3-cd4e413dc886")
 		(property "Reference" "TP10"
@@ -9055,6 +9253,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000342-00"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15cdef89-8338-4a0e-99d1-29a50f76f2f5")
 		)
@@ -9124,11 +9331,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C114564"
 			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000077-00"
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9267,11 +9483,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C114564"
 			(at 78.74 72.39 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000077-00"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9381,6 +9606,15 @@
 		)
 		(property "LCSC" "C17501"
 			(at 160.02 103.9622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000339-00"
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +10041,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "757b7769-7eac-4bfb-8941-6cd18acec498")
 		(property "Reference" "TP14"
@@ -9931,6 +10165,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "ICS-000346-00"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "466aff43-3ecc-4934-a68e-19c3004a4062")
 		)
@@ -10044,6 +10287,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "ICS-000346-00"
+			(at 175.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f89898cf-a86b-410f-8cc2-1398f644c5e8")
 		)
@@ -10150,6 +10402,15 @@
 		)
 		(property "LCSC" "C7975"
 			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000346-00"
+			(at 176.53 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,6 +10566,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000339-00"
+			(at 157.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3dd2d6ae-02dc-4702-8595-b584c6ec6281")
 		)
@@ -10375,6 +10645,15 @@
 		)
 		(property "LCSC" "C7975"
 			(at 134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000346-00"
+			(at 134.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,6 +10768,15 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 34.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "CAP-000175-00"
 			(at 34.29 116.84 0)
 			(effects
 				(font
@@ -10641,6 +10929,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000273-00"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfec1cfa-3cf3-4b90-a0c7-8e44434fbf4b")
 		)
@@ -10720,6 +11017,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000175-00"
+			(at 71.12 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4c58f71-6b2f-48f9-a3ab-3eabd08d1cd5")
 		)
@@ -10742,7 +11048,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "94748d15-f5e4-41a4-a1a5-cfa72a26ce78")
 		(property "Reference" "TP15"
@@ -10901,6 +11207,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000342-00"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd5096de-a52e-423e-aa19-461e73de76c3")
 		)
@@ -10975,6 +11290,15 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000338-00"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11058,6 +11382,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000175-00"
+			(at 73.025 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e477aa6-9f93-4200-b370-206059df0442")
 		)
@@ -11127,11 +11460,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C114564"
 			(at 76.835 111.76 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000077-00"
+			(at 76.835 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11314,6 +11656,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000342-00"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d456a0e5-6576-4fa4-b620-c32605bab65c")
 		)
@@ -11384,6 +11735,15 @@
 		)
 		(property "LCSC" "C7975"
 			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000346-00"
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,6 +11859,15 @@
 		)
 		(property "LCSC" "C7975"
 			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000346-00"
+			(at 194.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11647,6 +12016,15 @@
 		)
 		(property "LCSC" "C17638"
 			(at 119.2022 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000342-00"
+			(at 124.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11831,6 +12209,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000342-00"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb693e57-fc42-4479-977d-6b8bd4f2b28a")
 		)
@@ -11975,6 +12362,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "DIO-000356-00"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f14ade16-cecc-4692-8264-005723602a84")
 		)
@@ -12087,6 +12483,15 @@
 		)
 		(property "LCSC" "C7975"
 			(at 175.26 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000346-00"
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12267,6 +12672,15 @@
 		)
 		(property "LCSC" "C21120"
 			(at 46.355 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "CAP-000273-00"
+			(at 45.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12518,6 +12932,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000339-00"
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28859266-4cb2-44a7-8c0c-affb45cdbe73")
 		)
@@ -12695,6 +13118,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000339-00"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "114baee1-3a13-4242-b049-7aa3bf4a73e9")
 		)
@@ -12816,6 +13248,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000340-00"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99c80da7-3a5a-4eb6-aabf-7890d786035e")
 		)
@@ -12885,11 +13326,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C114564"
 			(at 79.375 33.02 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000077-00"
+			(at 79.375 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -13169,6 +13619,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000175-00"
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e69db2cd-1838-4e6d-a31d-5516673b7cbc")
 		)
@@ -13347,6 +13806,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000342-00"
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a03f9f77-c39b-464c-86c3-2ad714454937")
 		)
@@ -13444,6 +13912,24 @@
 			)
 		)
 		(property "URL" "https://www.digikey.com.au/product-detail/en/analog-devices-inc/ADXL343BCCZ-RL/ADXL343BCCZ-RLCT-ND/7422311"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C579454"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000363-00"
 			(at 226.06 48.26 0)
 			(effects
 				(font
@@ -13689,11 +14175,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C114564"
 			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000077-00"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

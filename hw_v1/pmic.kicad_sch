@@ -4089,7 +4089,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "01f41412-ba5f-4029-a306-78a38b415971")
 		(property "Reference" "JP13"
@@ -4365,6 +4365,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "ICS-000345-00"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73ab16e6-a9fd-4d37-8572-05c72f77bfa7")
 		)
@@ -4456,6 +4465,15 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000118-00"
+			(at 105.41 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4568,6 +4586,15 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "ICS-000345-00"
+			(at 139.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4802,7 +4829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N5819WS"
 			(at 241.3 40.005 0)
 			(effects
 				(font
@@ -4811,7 +4838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 236.855 63.5 0)
 			(effects
 				(font
@@ -4865,11 +4892,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5277952"
+		(property "LCSC" "C191023"
 			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "DIO-000272-00"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5314,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N5819WS"
 			(at 241.3 42.545 0)
 			(effects
 				(font
@@ -5323,7 +5359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 236.855 66.04 0)
 			(effects
 				(font
@@ -5377,11 +5413,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5277952"
+		(property "LCSC" "C191023"
 			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "DIO-000272-00"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5485,7 +5530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N5819WS"
 			(at 241.3 34.925 0)
 			(effects
 				(font
@@ -5494,7 +5539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 236.855 58.42 0)
 			(effects
 				(font
@@ -5548,11 +5593,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5277952"
+		(property "LCSC" "C191023"
 			(at 241.3 38.1 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "DIO-000272-00"
+			(at 241.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5590,7 +5644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N5819WS"
 			(at 241.3 37.465 0)
 			(effects
 				(font
@@ -5599,7 +5653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 236.855 60.96 0)
 			(effects
 				(font
@@ -5653,11 +5707,20 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5277952"
+		(property "LCSC" "C191023"
 			(at 241.3 40.64 0)
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "DIO-000272-00"
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5872,6 +5935,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000353-00"
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b7a33a6-bfe6-4377-b923-fea50b02077d")
 		)
@@ -6061,6 +6133,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 71.755 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "PWR-000021-00"
+			(at 71.755 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6346,6 +6436,15 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "RES-000353-00"
+			(at 220.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

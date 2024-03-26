@@ -4138,6 +4138,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "TRA-000186-00"
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "706aa197-54a4-48ca-9e8e-c27af80100e8")
 		)
@@ -4384,6 +4393,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000107-00"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f32ee83-c660-4491-8ecf-297e177ff1a5")
 		)
@@ -4603,7 +4621,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4181cec3-57dc-41ed-9597-06598b47b4cd")
 		(property "Reference" "J10"
 			(at 70.866 86.614 0)
@@ -4797,7 +4815,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "476e9e87-2ef0-43a5-a419-19890a5de239")
 		(property "Reference" "JP7"
@@ -4922,7 +4940,7 @@
 				(hide yes)
 			)
 		)
-		(property "STOCK" "44"
+		(property "STOCK" "RES-000229-00"
 			(at 196.85 144.78 90)
 			(effects
 				(font
@@ -5073,6 +5091,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "TRA-000031-00"
+			(at 97.155 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7375d72-1109-4346-902b-242e99e511bd")
 		)
@@ -5196,6 +5223,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "TRA-000056-00"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5b49144-37c4-4b71-a1fa-1c41d780548f")
 		)
@@ -5221,7 +5257,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "583dd2b2-4d9a-443b-8435-3110db1aceb2")
 		(property "Reference" "JP8"
@@ -5346,7 +5382,7 @@
 				(hide yes)
 			)
 		)
-		(property "STOCK" "44"
+		(property "STOCK" "RES-000229-00"
 			(at 161.29 76.2 90)
 			(effects
 				(font
@@ -5498,6 +5534,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000107-00"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "283c73f1-420e-4f5c-ad65-1977fc4fd716")
 		)
@@ -5566,7 +5611,7 @@
 				(hide yes)
 			)
 		)
-		(property "STOCK" "BI000000597"
+		(property "STOCK" "DIO-000157-00"
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -5727,6 +5772,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000107-00"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fe48ff5-0a31-4b0a-ab96-a88c6da21e0a")
 		)
@@ -5749,7 +5803,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "882bf229-5bb3-4686-bc1d-925be605e196")
 		(property "Reference" "JP6"
@@ -5940,6 +5994,15 @@
 			(effects
 				(font
 					(size 0.889 0.889)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "TRA-000186-00"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -6155,6 +6218,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "CAP-000179-00"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "927b4a90-8b86-4cf0-a89b-56c1f1399ba7")
 		)
@@ -6297,7 +6369,7 @@
 				(hide yes)
 			)
 		)
-		(property "STOCK" "44"
+		(property "STOCK" "RES-000229-00"
 			(at 219.71 81.28 90)
 			(effects
 				(font
@@ -6340,7 +6412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "S110FA"
 			(at 250.9266 144.907 90)
 			(effects
 				(font
@@ -6423,6 +6495,15 @@
 		)
 		(property "Field10" ""
 			(at 248.92 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "DIO-000332-00"
+			(at 248.92 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6730,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c9150d0f-1afc-4835-9145-df697a1a97a6")
 		(property "Reference" "J11"
 			(at 119.126 96.012 0)
@@ -6751,6 +6832,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "MOD-000414-00"
 			(at 96.52 161.29 0)
 			(effects
 				(font
@@ -6947,6 +7046,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "TRA-000056-00"
+			(at 222.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4937a965-d9a7-464f-8ef5-fb95cc9e8fe9")
 		)
@@ -7027,7 +7135,7 @@
 				(hide yes)
 			)
 		)
-		(property "STOCK" "44"
+		(property "STOCK" "RES-000229-00"
 			(at 196.85 121.92 90)
 			(effects
 				(font
@@ -7135,7 +7243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "S110FA"
 			(at 250.9266 125.603 90)
 			(effects
 				(font
@@ -7218,6 +7326,15 @@
 		)
 		(property "Field10" ""
 			(at 248.92 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "DIO-000332-00"
+			(at 248.92 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,6 +7454,15 @@
 				(hide yes)
 			)
 		)
+		(property "STOCK" "RES-000107-00"
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7f89c26-e8f5-49a5-92fb-ab42bfafcf76")
 		)
@@ -7441,6 +7567,15 @@
 			)
 		)
 		(property "LCSC" "C222209"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STOCK" "TRA-000362-00"
 			(at 223.52 134.62 0)
 			(effects
 				(font
