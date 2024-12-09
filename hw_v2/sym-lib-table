@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "uEFI_v5")(type "KiCad")(uri "/home/fdsoftware/churrosoft/openefi/Speeduino_stm32_mini/libs/uEFI_v5.kicad_sym")(options "")(descr ""))
+  (lib (name "47352-1001")(type "KiCad")(uri "/home/fdsoftware/churrosoft/openefi/Speeduino_stm32_mini/libs/47352-1001.kicad_sym")(options "")(descr ""))
+  (lib (name "hw_v2")(type "KiCad")(uri "${KIPRJMOD}/hw_v2.kicad_sym")(options "")(descr ""))
+)
