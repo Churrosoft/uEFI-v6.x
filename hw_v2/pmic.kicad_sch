@@ -3377,7 +3377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 135.89 0)
 			(effects
 				(font
@@ -3453,7 +3453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 104.14 0)
 			(effects
 				(font
@@ -4214,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 130.81 0)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 109.22 0)
 			(effects
 				(font
