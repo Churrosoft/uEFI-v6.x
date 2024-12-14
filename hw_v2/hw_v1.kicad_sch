@@ -800,7 +800,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:CP_Small"
+		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -820,7 +820,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CP_Small"
+			(property "Value" "C_Polarized_Small"
 				(at 0.254 -2.032 0)
 				(effects
 					(font
@@ -874,7 +874,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CP_Small_0_1"
+			(symbol "C_Polarized_Small_0_1"
 				(rectangle
 					(start -1.524 0.6858)
 					(end 1.524 0.3048)
@@ -922,7 +922,7 @@
 					)
 				)
 			)
-			(symbol "CP_Small_1_1"
+			(symbol "C_Polarized_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.8542)
@@ -2537,7 +2537,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.nxp.com/documents/data_sheet/TJA1051.pdf"
+			(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6306,7 +6306,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6428,7 +6428,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6550,7 +6550,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7646,6 +7646,10 @@
 		(uuid "4c79b7a5-6ffb-4117-8308-d01b7a855591")
 	)
 	(no_connect
+		(at 81.28 106.68)
+		(uuid "4ddf9919-6225-40f9-aa36-1dd6d53b67a6")
+	)
+	(no_connect
 		(at 81.28 119.38)
 		(uuid "54a3f602-747e-4b65-9975-2ed78c58d767")
 	)
@@ -8446,6 +8450,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 153.67) (xy 196.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f3a21e-cbd2-4a51-b18c-14e0d67d606a")
+	)
+	(wire
+		(pts
 			(xy 124.46 120.65) (xy 124.46 119.38)
 		)
 		(stroke
@@ -8722,16 +8736,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 153.67) (xy 194.31 153.67)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0ede6751-9954-4906-abdf-764dad154bc0")
-	)
-	(wire
-		(pts
 			(xy 182.88 21.59) (xy 182.88 22.86)
 		)
 		(stroke
@@ -8915,7 +8919,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 147.32) (xy 123.19 147.32)
+			(xy 114.3 147.32) (xy 123.19 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9293,6 +9297,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 148.59) (xy 196.85 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3b6a58-96bf-409e-844a-b6b1e662875d")
+	)
+	(wire
+		(pts
 			(xy 41.91 29.21) (xy 46.99 29.21)
 		)
 		(stroke
@@ -9330,16 +9344,6 @@
 			(type default)
 		)
 		(uuid "2f9968cc-d3dc-4de3-be9c-5f6ebdf30976")
-	)
-	(wire
-		(pts
-			(xy 83.82 106.68) (xy 81.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "317d81cd-659e-418e-982a-09ee4561a60c")
 	)
 	(wire
 		(pts
@@ -9567,7 +9571,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 146.05) (xy 115.57 147.32)
+			(xy 114.3 146.05) (xy 114.3 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10241,6 +10245,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 142.24) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6385d006-3cb3-4190-ae82-96f4c3c9f353")
+	)
+	(wire
+		(pts
 			(xy 157.48 120.65) (xy 157.48 119.38)
 		)
 		(stroke
@@ -10320,16 +10334,6 @@
 			(type solid)
 		)
 		(uuid "65be7ef4-627b-4b31-b800-dc7b4631e8f2")
-	)
-	(wire
-		(pts
-			(xy 123.19 142.24) (xy 114.935 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6601df4d-a25b-4555-b27f-7a426d97c38d")
 	)
 	(wire
 		(pts
@@ -10701,16 +10705,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 148.59) (xy 194.31 148.59)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "7dbc08e1-073c-485c-9be9-107e8e331eb1")
-	)
-	(wire
-		(pts
 			(xy 83.82 27.94) (xy 88.9 27.94)
 		)
 		(stroke
@@ -10769,6 +10763,16 @@
 			(type solid)
 		)
 		(uuid "7f9fbc04-bd5f-40d6-bcd2-3ce18b8e9bc9")
+	)
+	(wire
+		(pts
+			(xy 114.3 139.7) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdce94f-b92b-4801-8e5a-9b4b3c520069")
 	)
 	(bus
 		(pts
@@ -11166,7 +11170,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 43.18) (xy 138.43 43.18)
+			(xy 135.89 43.18) (xy 138.43 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11464,16 +11468,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 53.34) (xy 151.13 56.515)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82cab2c-4076-4edb-bd40-ff740ebfcedd")
-	)
-	(wire
-		(pts
 			(xy 30.48 160.02) (xy 35.56 160.02)
 		)
 		(stroke
@@ -11573,16 +11567,6 @@
 			(type solid)
 		)
 		(uuid "b0097311-68d3-4caf-a5ad-bba6d1983421")
-	)
-	(wire
-		(pts
-			(xy 114.935 139.7) (xy 123.19 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e00cb3-29a7-4d72-9f60-649369dd1131")
 	)
 	(wire
 		(pts
@@ -11740,6 +11724,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 53.34) (xy 151.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb84d745-4301-4948-bd58-02e696abd93c")
+	)
+	(wire
+		(pts
 			(xy 95.25 111.76) (xy 81.28 111.76)
 		)
 		(stroke
@@ -11890,16 +11884,6 @@
 			(type solid)
 		)
 		(uuid "c325cb70-52fa-4f3b-9819-48a9aaebf659")
-	)
-	(wire
-		(pts
-			(xy 196.215 151.13) (xy 194.31 151.13)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c5335f55-5a29-471b-a3ae-d3e8683e89b9")
 	)
 	(wire
 		(pts
@@ -12085,6 +12069,16 @@
 			(type solid)
 		)
 		(uuid "d62f5cdd-8441-49b1-a13e-4f3fb8342a6b")
+	)
+	(wire
+		(pts
+			(xy 194.31 151.13) (xy 196.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d651c704-f2aa-4f4f-9419-10eeee98029f")
 	)
 	(bus
 		(pts
@@ -12932,7 +12926,7 @@
 		(uuid "13d6eb9d-3b03-417e-be5e-e413c3d0da9d")
 	)
 	(label "SYS_SWDIO"
-		(at 196.215 148.59 0)
+		(at 196.85 148.59 0)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -13011,16 +13005,6 @@
 		)
 		(uuid "1b5f9d0c-9156-4d89-a488-56570ee1b9de")
 	)
-	(label "SD_CMD"
-		(at 83.82 106.68 0)
-		(effects
-			(font
-				(size 0.7874 0.7874)
-			)
-			(justify left bottom)
-		)
-		(uuid "1bc59a7a-cb2e-4237-a079-5ddba140b797")
-	)
 	(label "LED1"
 		(at 83.82 139.7 0)
 		(effects
@@ -13032,7 +13016,7 @@
 		(uuid "1cd45ad2-3b22-49ae-b883-4d305c999855")
 	)
 	(label "SYS_SWCLK"
-		(at 196.215 151.13 0)
+		(at 196.85 151.13 0)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -13402,7 +13386,7 @@
 		(uuid "707b2080-5dd4-4523-bccd-96210e5efee9")
 	)
 	(label "CAN1_TX"
-		(at 114.935 139.7 0)
+		(at 114.3 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13432,7 +13416,7 @@
 		(uuid "773d954e-24db-499b-8e97-a2a15b2eca4c")
 	)
 	(label "CAN1_RX"
-		(at 114.935 142.24 0)
+		(at 114.3 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13462,7 +13446,7 @@
 		(uuid "835f70ec-a946-40b6-a07b-3e36e40e25f3")
 	)
 	(label "SYS_SWO"
-		(at 196.215 153.67 0)
+		(at 196.85 153.67 0)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -13492,7 +13476,7 @@
 		(uuid "896d92b3-6b04-4490-9f30-4b327ab05172")
 	)
 	(label "USB_D+"
-		(at 135.255 43.18 180)
+		(at 135.89 43.18 180)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -14639,7 +14623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 105.41 109.22 0)
 			(effects
 				(font
@@ -14705,7 +14689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 154.94 0)
 			(effects
 				(font
@@ -14771,7 +14755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 181.61 148.59 0)
 			(effects
 				(font
@@ -14936,7 +14920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 163.83 191.77 0)
 			(effects
 				(font
@@ -15174,7 +15158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 171.45 49.53 0)
 			(effects
 				(font
@@ -15288,7 +15272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 115.57 0)
 			(effects
 				(font
@@ -15354,7 +15338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 152.4 78.74 0)
 			(effects
 				(font
@@ -15507,7 +15491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 234.95 21.59 0)
 			(effects
 				(font
@@ -15583,16 +15567,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C412370"
-			(at 26.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STOCK" "MEC-000125-00"
+		(property "LCSC" "C2888955"
 			(at 26.67 40.64 0)
 			(effects
 				(font
@@ -15832,7 +15807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 140.97 93.98 0)
 			(effects
 				(font
@@ -15897,7 +15872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 135.89 134.62 0)
 			(effects
 				(font
@@ -16146,7 +16121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 30.48 0)
 			(effects
 				(font
@@ -16617,7 +16592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 118.11 171.45 0)
 			(effects
 				(font
@@ -16683,7 +16658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 200.66 24.13 0)
 			(effects
 				(font
@@ -16833,7 +16808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 190.5 0)
 			(effects
 				(font
@@ -17079,7 +17054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -17144,7 +17119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 113.03 121.92 0)
 			(effects
 				(font
@@ -17364,7 +17339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 146.05 190.5 0)
 			(effects
 				(font
@@ -17429,7 +17404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 140.97 78.74 0)
 			(effects
 				(font
@@ -17475,7 +17450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 135.89 157.48 0)
 			(effects
 				(font
@@ -17485,7 +17460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nxp.com/documents/data_sheet/TJA1051.pdf"
+		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -17494,7 +17469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -17598,7 +17573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 34.29 0)
 			(effects
 				(font
@@ -17839,7 +17814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 21.59 67.31 0)
 			(effects
 				(font
@@ -17905,7 +17880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 58.42 31.75 0)
 			(effects
 				(font
@@ -17927,7 +17902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:CP_Small")
+		(lib_id "Device:C_Polarized_Small")
 		(at 100.33 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17971,7 +17946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 100.33 24.13 0)
 			(effects
 				(font
@@ -18145,7 +18120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 115.57 0)
 			(effects
 				(font
@@ -18295,7 +18270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -18360,7 +18335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 137.16 190.5 0)
 			(effects
 				(font
@@ -18427,7 +18402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -18735,7 +18710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 31.75 20.32 0)
 			(effects
 				(font
@@ -18801,7 +18776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 181.61 153.67 0)
 			(effects
 				(font
@@ -18866,7 +18841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 49.53 0)
 			(effects
 				(font
@@ -19131,7 +19106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 81.28 17.78 0)
 			(effects
 				(font
@@ -19197,7 +19172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 123.19 149.86 0)
 			(effects
 				(font
@@ -19262,7 +19237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 261.62 102.87 0)
 			(effects
 				(font
@@ -19527,7 +19502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 53.34 182.88 0)
 			(effects
 				(font
@@ -19722,7 +19697,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 115.57 146.05 0)
+		(at 114.3 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19730,7 +19705,7 @@
 		(dnp no)
 		(uuid "a2b07afa-b535-4c8e-b2a1-63885dbce73b")
 		(property "Reference" "#PWR073"
-			(at 115.57 149.86 0)
+			(at 114.3 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19739,7 +19714,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 118.745 145.415 0)
+			(at 117.475 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19747,7 +19722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 146.05 0)
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19756,7 +19731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 146.05 0)
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19764,8 +19739,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 146.05 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 114.3 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20185,7 +20160,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 56.515 0)
+		(at 151.13 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20193,7 +20168,7 @@
 		(dnp no)
 		(uuid "aeb316f2-b93d-4f15-a441-4a45b98cab10")
 		(property "Reference" "#PWR0109"
-			(at 151.13 62.865 0)
+			(at 151.13 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20202,7 +20177,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.2443 60.8394 0)
+			(at 151.2443 61.4744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20210,7 +20185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 56.515 0)
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20219,7 +20194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 56.515 0)
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20227,8 +20202,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 151.13 56.515 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20377,7 +20352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 93.98 0)
 			(effects
 				(font
@@ -20602,7 +20577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 250.19 88.9 0)
 			(effects
 				(font
@@ -20756,7 +20731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 165.1 78.74 0)
 			(effects
 				(font
@@ -21201,7 +21176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 266.7 85.09 0)
 			(effects
 				(font
@@ -21518,7 +21493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 151.13 25.4 0)
 			(effects
 				(font
@@ -21913,7 +21888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 176.53 35.56 0)
 			(effects
 				(font
@@ -21978,7 +21953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 261.62 80.01 0)
 			(effects
 				(font
@@ -22112,7 +22087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 21.59 41.91 0)
 			(effects
 				(font
@@ -22275,16 +22250,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C412370"
-			(at 21.59 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STOCK" "MEC-000125-00"
+		(property "LCSC" "C2888955"
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -22530,7 +22496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 121.92 190.5 0)
 			(effects
 				(font
@@ -22660,7 +22626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 182.88 21.59 0)
 			(effects
 				(font
