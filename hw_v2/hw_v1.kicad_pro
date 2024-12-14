@@ -190,7 +190,6 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
         0.2,
         0.2032,
         0.2159,
@@ -686,6 +685,14 @@
       {
         "netclass": "2.5A EXTERNAL",
         "pattern": "HEATER*"
+      },
+      {
+        "netclass": "2.5A EXTERNAL",
+        "pattern": "IDLE_OUT"
+      },
+      {
+        "netclass": "2.5A EXTERNAL",
+        "pattern": "BOOST-OUT"
       }
     ]
   },

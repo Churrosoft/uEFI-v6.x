@@ -6377,7 +6377,7 @@
 	)
 	(global_label "MAP_Sensor"
 		(shape input)
-		(at 72.39 99.06 180)
+		(at 72.39 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6386,7 +6386,7 @@
 		)
 		(uuid "1fea15ef-a7ae-4e46-9125-b208bcace7bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 99.06 0)
+			(at 72.39 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +6803,7 @@
 	)
 	(global_label "TPS_Sensor"
 		(shape input)
-		(at 72.39 101.6 180)
+		(at 72.39 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6812,7 +6812,7 @@
 		)
 		(uuid "7ae92b21-34a5-4316-9d3c-5fbfe54cd970")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 101.6 0)
+			(at 72.39 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,7 +7135,7 @@
 	)
 	(global_label "BOOST-OUT"
 		(shape input)
-		(at 73.66 60.96 180)
+		(at 73.66 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7144,7 +7144,7 @@
 		)
 		(uuid "c2b025b3-35c1-4b37-8918-e6e3eabdc1fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 60.96 0)
+			(at 73.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7217,7 @@
 	)
 	(global_label "IDLE-OUT"
 		(shape input)
-		(at 73.66 71.12 180)
+		(at 73.66 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7226,7 +7226,7 @@
 		)
 		(uuid "eedc2497-20ef-4749-b5ce-a0f446d44cce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 71.12 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

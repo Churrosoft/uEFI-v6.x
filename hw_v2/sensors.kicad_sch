@@ -2552,9 +2552,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -1.27 -2.54)
-					(radius 0.127)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 -0.635)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2563,10 +2564,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -1.27 -0.635)
-					)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -2658,7 +2658,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.889) (xy 0 1.016)
+						(xy 0 -0.889) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -2670,7 +2670,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.889) (xy 0 -3.81)
+						(xy 0 -0.889) (xy 0 1.016)
 					)
 					(stroke
 						(width 0)
@@ -2986,7 +2986,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0.635) (xy 3.81 2.54)
+						(xy 3.81 0.635) (xy 3.81 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -2998,7 +2998,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 0.635) (xy 3.81 -0.635)
+						(xy 3.81 0.635) (xy 3.81 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4483,12 +4483,6 @@
 		(uuid "082aedc9-0526-412b-9910-e34f52fe4575")
 	)
 	(junction
-		(at 129.54 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c78b8f0-1867-4602-b163-d818f92aff4f")
-	)
-	(junction
 		(at 154.94 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4499,6 +4493,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26cb040b-d550-40d3-b738-6dd2a506c67d")
+	)
+	(junction
+		(at 129.54 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "270962bd-d5a1-496f-ba1f-53c554d33c01")
 	)
 	(junction
 		(at 163.83 128.27)
@@ -4597,12 +4597,6 @@
 		(uuid "9015d7c8-d131-473f-afa3-07e1979832b6")
 	)
 	(junction
-		(at 129.54 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92da8599-c56c-49f9-91b8-d4e37883228a")
-	)
-	(junction
 		(at 57.15 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4649,6 +4643,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce96947d-06aa-4ff7-be17-3b4866bd73d3")
+	)
+	(junction
+		(at 129.54 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfad1c70-0958-464e-80c2-ac2dff3a6eb5")
 	)
 	(junction
 		(at 50.8 48.26)
@@ -9374,7 +9374,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 63.5 53.34 270)
+		(at 63.5 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9382,7 +9382,7 @@
 		(dnp no)
 		(uuid "457280de-2d07-43a0-bf1b-f85ed41e1b45")
 		(property "Reference" "RN4"
-			(at 63.5 42.7482 90)
+			(at 63.5 61.3918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9390,7 +9390,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 63.5 45.0596 90)
+			(at 63.5 59.0804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9398,7 +9398,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 63.5 60.325 90)
+			(at 63.5 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 53.34 0)
+			(at 63.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,7 +9416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 53.34 0)
+			(at 63.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +9425,7 @@
 			)
 		)
 		(property "Part #" "YC164-JR-0710KL"
-			(at 5.08 -40.64 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,7 +9434,7 @@
 			)
 		)
 		(property "VEND#" "YC164J-10KCT-ND"
-			(at 5.08 -40.64 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,7 +9443,7 @@
 			)
 		)
 		(property "VEND" "DIGI"
-			(at 5.08 -40.64 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,7 +9452,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 5.08 -40.64 0)
+			(at 121.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,7 +9461,7 @@
 			)
 		)
 		(property "LCSC" "C29718"
-			(at 63.5 53.34 0)
+			(at 63.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +9888,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
-		(at 121.92 34.29 0)
+		(at 121.92 46.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9896,7 +9896,7 @@
 		(dnp no)
 		(uuid "4dedab9d-bf1f-4900-be58-b39f27d87d13")
 		(property "Reference" "U23"
-			(at 125.73 38.1 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9904,7 +9904,7 @@
 			)
 		)
 		(property "Value" "MCP6004"
-			(at 124.46 40.64 0)
+			(at 124.46 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +9912,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 106.807 83.82 90)
+			(at 106.807 96.52 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9921,7 +9921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.215 83.185 0)
+			(at 196.215 95.885 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9930,7 +9930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 34.29 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +9939,7 @@
 			)
 		)
 		(property "Part #" "MCP6004T-I/ST"
-			(at -46.99 73.66 0)
+			(at -46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,7 +9948,7 @@
 			)
 		)
 		(property "VEND#" "MCP6004T-I/STCT-ND"
-			(at -46.99 73.66 0)
+			(at -46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +9957,7 @@
 			)
 		)
 		(property "VEND" "DIGI"
-			(at -46.99 73.66 0)
+			(at -46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +9966,7 @@
 			)
 		)
 		(property "Manufacturer" "MicroChip"
-			(at -46.99 73.66 0)
+			(at -46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +9975,7 @@
 			)
 		)
 		(property "LCSC" "C248577"
-			(at 121.92 34.29 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +10036,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
-		(at 121.92 46.99 0)
+		(at 121.92 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10044,7 +10044,7 @@
 		(dnp no)
 		(uuid "4e475e5f-2b27-43c9-9f85-91cdb9eb3321")
 		(property "Reference" "U23"
-			(at 125.73 50.8 0)
+			(at 124.968 37.846 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10052,7 +10052,7 @@
 			)
 		)
 		(property "Value" "MCP6004"
-			(at 124.46 53.34 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10060,7 +10060,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 106.807 63.5 90)
+			(at 106.807 50.8 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10069,7 +10069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.215 62.865 0)
+			(at 196.215 50.165 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10078,7 +10078,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 46.99 0)
+			(at 121.92 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,7 +10087,7 @@
 			)
 		)
 		(property "Part #" "MCP6004T-I/ST"
-			(at -46.99 99.06 0)
+			(at -46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10096,7 @@
 			)
 		)
 		(property "VEND#" "MCP6004T-I/STCT-ND"
-			(at -46.99 99.06 0)
+			(at -46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10105,7 @@
 			)
 		)
 		(property "VEND" "DIGI"
-			(at -46.99 99.06 0)
+			(at -46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10114,7 @@
 			)
 		)
 		(property "Manufacturer" "MicroChip"
-			(at -46.99 99.06 0)
+			(at -46.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +10123,7 @@
 			)
 		)
 		(property "LCSC" "C248577"
-			(at 121.92 46.99 0)
+			(at 121.92 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,7 +11349,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 166.37 48.26 90)
+		(at 166.37 48.26 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11400,7 +11401,7 @@
 			)
 		)
 		(property "Part #" "YC164-JR-0710KL"
-			(at 224.79 142.24 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11409,7 +11410,7 @@
 			)
 		)
 		(property "VEND#" "YC164J-10KCT-ND"
-			(at 224.79 142.24 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11418,7 +11419,7 @@
 			)
 		)
 		(property "VEND" "DIGI"
-			(at 224.79 142.24 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11427,7 +11428,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 224.79 142.24 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)

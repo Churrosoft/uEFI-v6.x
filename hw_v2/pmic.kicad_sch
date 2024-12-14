@@ -5449,30 +5449,28 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 233.68 80.01 90)
+		(at 233.68 80.01 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c4da8c9-1ef2-48e7-b14a-dd5a2ccfbe3f")
 		(property "Reference" "RN1"
-			(at 232.41 74.93 0)
+			(at 233.68 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1k"
-			(at 234.95 74.93 0)
+			(at 233.68 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
