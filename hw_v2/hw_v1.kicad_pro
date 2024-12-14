@@ -269,7 +269,56 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1689100|1765300|87cc8230-0db8-46cd-9397-cb727937c285|28fd7558-f4c8-4970-9f59-3299523e486a|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0",
+        ""
+      ],
+      [
+        "multiple_net_names|2438400|825500|4b0f4865-e672-4ccb-995e-fa1887ca3101|794aff0d-2e7a-4faf-8e8b-acac45a23b35|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0",
+        ""
+      ],
+      [
+        "multiple_net_names|698500|1460500|2f282da4-ebbf-4dd2-a020-e23b3b1bc69e|4d113bb9-6437-4992-bc5d-c032513eb674|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/c2d53420-5033-4d6b-a79f-3167748d0ce0",
+        ""
+      ],
+      [
+        "pin_to_pin|1028700|1054100|8f8e30d3-cfd6-4083-9197-5ca282a28e3f|1fc1ed6d-f2e5-4cca-a95b-f79505052bdb|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/fba0052c-362f-4f60-93e5-b9df8221021b|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/fba0052c-362f-4f60-93e5-b9df8221021b|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c",
+        ""
+      ],
+      [
+        "pin_to_pin|1155700|673100|f585177f-3ada-410f-8844-da8ec77ca12c|1fc1ed6d-f2e5-4cca-a95b-f79505052bdb|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/27977e95-ecc9-4124-9dfb-b7b6f545e8f2|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/27977e95-ecc9-4124-9dfb-b7b6f545e8f2|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c",
+        ""
+      ],
+      [
+        "pin_to_pin|1155700|825500|54e0d766-bf3c-4500-b741-a18840b1d5dc|1fc1ed6d-f2e5-4cca-a95b-f79505052bdb|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/27977e95-ecc9-4124-9dfb-b7b6f545e8f2|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/27977e95-ecc9-4124-9dfb-b7b6f545e8f2|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c",
+        ""
+      ],
+      [
+        "pin_to_pin|1511300|571500|7609fc7a-e655-40e5-8304-5e23f1087eb2|63149ca7-a71a-42bd-8395-3ab0c618dd55|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/27977e95-ecc9-4124-9dfb-b7b6f545e8f2|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/27977e95-ecc9-4124-9dfb-b7b6f545e8f2|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/27977e95-ecc9-4124-9dfb-b7b6f545e8f2",
+        ""
+      ],
+      [
+        "pin_to_pin|952500|635000|fb86ea79-8c74-4eb0-9678-40d500578388|b5720485-cb51-432c-abcc-d21231f51b5d|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1231900|254000|a6334c88-0b7e-4bb8-95ff-f11d4cf9f59b|00000000-0000-0000-0000-000000000000|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1295400|622300|fcfc5c7f-d85b-4100-9950-360dd88ea720|00000000-0000-0000-0000-000000000000|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/fba0052c-362f-4f60-93e5-b9df8221021b|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/fba0052c-362f-4f60-93e5-b9df8221021b|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2133600|355600|ff80c509-7884-4934-b53b-02e5d933589d|00000000-0000-0000-0000-000000000000|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/fba0052c-362f-4f60-93e5-b9df8221021b|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/fba0052c-362f-4f60-93e5-b9df8221021b|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|584200|508000|798d7243-f05e-4684-8c1c-d35c23ce7987|00000000-0000-0000-0000-000000000000|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/312f3a58-86c6-4c57-9da0-ed62046efef3|/b3feb07e-be80-40e1-bd13-6cd54c2f8b0c/312f3a58-86c6-4c57-9da0-ed62046efef3|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -491,7 +540,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "uEFI_v5"
+      "uEFI_v5",
+      "hw_v2lib"
     ],
     "pinned_symbol_libs": [
       "uEFI_v5",
@@ -1045,12 +1095,12 @@
       "Connector"
     ],
     [
-      "27977e95-ecc9-4124-9dfb-b7b6f545e8f2",
-      "CKP_CMP_Sensors"
-    ],
-    [
       "fba0052c-362f-4f60-93e5-b9df8221021b",
       "Injection & ignition drivers"
+    ],
+    [
+      "27977e95-ecc9-4124-9dfb-b7b6f545e8f2",
+      "CKP_CMP_Sensors"
     ]
   ],
   "text_variables": {}
