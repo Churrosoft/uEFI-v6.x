@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241004)
+	(version 20241209)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "f44c62bd-b139-4098-80a2-0b3500ff9515")
@@ -2001,10 +2001,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -1.27 -0.635)
-					)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -2013,9 +2012,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -1.27 -2.54)
-					(radius 0.127)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 -0.635)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2096,7 +2096,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.889) (xy 0 1.016)
+						(xy 0 -0.889) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -2108,7 +2108,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.889) (xy 0 -3.81)
+						(xy 0 -0.889) (xy 0 1.016)
 					)
 					(stroke
 						(width 0)
@@ -2236,7 +2236,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0.635) (xy 1.27 -0.635)
+						(xy 1.27 0.635) (xy 1.27 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2248,7 +2248,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0.635) (xy 1.27 2.54)
+						(xy 1.27 0.635) (xy 1.27 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -11941,37 +11941,37 @@
 			(uuid "b2bbf43d-3de9-41ad-ad97-413c262bd353")
 		)
 		(pin "2"
-			(uuid "3d3ff3ce-a50e-43b8-a577-4fa2bac03147")
+			(uuid "3d3ff3ce-a50e-43b8-a577-4fa2bac03148")
 		)
 		(pin "3"
-			(uuid "62c65a26-00a6-417e-b5db-36045045f407")
+			(uuid "62c65a26-00a6-417e-b5db-36045045f408")
 		)
 		(pin "9"
-			(uuid "7e277c62-59ad-43d0-8dd6-657027e371a8")
+			(uuid "7e277c62-59ad-43d0-8dd6-657027e371a9")
 		)
 		(pin "12"
-			(uuid "737cf52b-ad2b-4514-ae50-82d4aa2343ea")
+			(uuid "737cf52b-ad2b-4514-ae50-82d4aa2343eb")
 		)
 		(pin "11"
-			(uuid "3d300bbe-ec20-4ac5-addf-e660a6e978ed")
+			(uuid "3d300bbe-ec20-4ac5-addf-e660a6e978ee")
 		)
 		(pin "4"
-			(uuid "4bdba219-1f7f-4f39-8c36-c8f9dead3c00")
+			(uuid "4bdba219-1f7f-4f39-8c36-c8f9dead3c01")
 		)
 		(pin "14"
-			(uuid "a5e00c96-c756-4e48-8706-2c6953a223cc")
+			(uuid "a5e00c96-c756-4e48-8706-2c6953a223cd")
 		)
 		(pin "13"
-			(uuid "591f053e-316d-4100-a0e4-548955aaedd3")
+			(uuid "591f053e-316d-4100-a0e4-548955aaedd4")
 		)
 		(pin "1"
-			(uuid "cde9ebe1-bbfb-4ea6-8d74-946911326efe")
+			(uuid "cde9ebe1-bbfb-4ea6-8d74-946911326eff")
 		)
 		(pin "10"
-			(uuid "0a025061-6ff8-4052-a769-0fd17c6ad011")
+			(uuid "0a025061-6ff8-4052-a769-0fd17c6ad012")
 		)
 		(pin "8"
-			(uuid "587fe56d-0c5c-41ba-ba7f-d4845e8eaec4")
+			(uuid "587fe56d-0c5c-41ba-ba7f-d4845e8eaec5")
 		)
 		(instances
 			(project "hw_v1"
@@ -12378,37 +12378,37 @@
 			(uuid "c491e682-e923-4ccb-8c32-51f67625b6e9")
 		)
 		(pin "2"
-			(uuid "3d3ff3ce-a50e-43b8-a577-4fa2bac03147")
+			(uuid "3d3ff3ce-a50e-43b8-a577-4fa2bac03149")
 		)
 		(pin "3"
-			(uuid "62c65a26-00a6-417e-b5db-36045045f407")
+			(uuid "62c65a26-00a6-417e-b5db-36045045f409")
 		)
 		(pin "9"
-			(uuid "7e277c62-59ad-43d0-8dd6-657027e371a8")
+			(uuid "7e277c62-59ad-43d0-8dd6-657027e371aa")
 		)
 		(pin "12"
-			(uuid "737cf52b-ad2b-4514-ae50-82d4aa2343ea")
+			(uuid "737cf52b-ad2b-4514-ae50-82d4aa2343ec")
 		)
 		(pin "11"
-			(uuid "3d300bbe-ec20-4ac5-addf-e660a6e978ed")
+			(uuid "3d300bbe-ec20-4ac5-addf-e660a6e978ef")
 		)
 		(pin "4"
-			(uuid "4bdba219-1f7f-4f39-8c36-c8f9dead3c00")
+			(uuid "4bdba219-1f7f-4f39-8c36-c8f9dead3c02")
 		)
 		(pin "14"
-			(uuid "a5e00c96-c756-4e48-8706-2c6953a223cc")
+			(uuid "a5e00c96-c756-4e48-8706-2c6953a223ce")
 		)
 		(pin "13"
-			(uuid "591f053e-316d-4100-a0e4-548955aaedd3")
+			(uuid "591f053e-316d-4100-a0e4-548955aaedd5")
 		)
 		(pin "1"
-			(uuid "cde9ebe1-bbfb-4ea6-8d74-946911326efe")
+			(uuid "cde9ebe1-bbfb-4ea6-8d74-946911326f00")
 		)
 		(pin "10"
-			(uuid "0a025061-6ff8-4052-a769-0fd17c6ad011")
+			(uuid "0a025061-6ff8-4052-a769-0fd17c6ad013")
 		)
 		(pin "8"
-			(uuid "587fe56d-0c5c-41ba-ba7f-d4845e8eaec4")
+			(uuid "587fe56d-0c5c-41ba-ba7f-d4845e8eaec6")
 		)
 		(instances
 			(project "hw_v1"
@@ -13721,7 +13721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hw_v2lib:WBO-module"
 			(at 227.33 72.39 0)
 			(effects
 				(font

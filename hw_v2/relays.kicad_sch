@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241004)
+	(version 20241209)
 	(generator "eeschema")
 	(generator_version "8.99")
 	(uuid "85b4f9db-6dcd-42fa-bd68-ca8eee6bad70")
@@ -3916,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 213.36 111.76 0)
 			(effects
 				(font
@@ -5000,7 +5000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 74.93 87.63 0)
 			(effects
 				(font
