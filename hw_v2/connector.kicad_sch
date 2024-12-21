@@ -4318,7 +4318,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -4330,7 +4330,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(rectangle
@@ -4365,7 +4365,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -4377,7 +4377,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7017,7 +7017,7 @@
 	)
 	(global_label "STEPPER-A1"
 		(shape input)
-		(at 88.9 73.66 0)
+		(at 88.9 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7027,7 +7027,7 @@
 		)
 		(uuid "279d92ce-a9bd-42d1-a6a6-9389155dc563")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.0408 73.66 0)
+			(at 104.0408 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +7277,7 @@
 	)
 	(global_label "STEPPER-A2"
 		(shape input)
-		(at 88.9 76.2 0)
+		(at 88.9 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7287,7 +7287,7 @@
 		)
 		(uuid "63427d5d-9580-44bf-aeda-f7f686551e45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.0408 76.2 0)
+			(at 104.0408 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,7 +7547,7 @@
 	)
 	(global_label "STEPPER-B2"
 		(shape input)
-		(at 88.9 81.28 0)
+		(at 88.9 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7557,7 +7557,7 @@
 		)
 		(uuid "8a935920-abcd-49fa-891a-1d983bc1bfec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.2222 81.28 0)
+			(at 104.2222 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7589,7 +7589,7 @@
 	)
 	(global_label "STEPPER-B1"
 		(shape input)
-		(at 88.9 78.74 0)
+		(at 88.9 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7599,7 +7599,7 @@
 		)
 		(uuid "98e820e9-c141-4c4a-a75e-8bf71aa452d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.2222 78.74 0)
+			(at 104.2222 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
