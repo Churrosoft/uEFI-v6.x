@@ -1804,7 +1804,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -2.54) (xy 3.81 -2.54)
+						(xy -3.81 -2.54) (xy -3.81 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -1816,7 +1816,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -2.54) (xy -3.81 -0.635)
+						(xy -3.81 -2.54) (xy 3.81 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1978,29 +1978,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -1.27 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy -1.27 -0.635)
@@ -2016,6 +1993,29 @@
 				(circle
 					(center -1.27 -2.54)
 					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 -0.635)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -8399,7 +8399,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 101.473 119.1768 0)
 			(effects
 				(font
@@ -8471,7 +8471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 100.33 118.11 0)
 			(effects
 				(font
@@ -8798,7 +8798,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -8869,13 +8869,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Campo10" ""
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -9583,7 +9591,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 149.86 194.31 0)
 			(effects
 				(font
@@ -9654,7 +9662,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 147.32 189.23 0)
 			(effects
 				(font
@@ -9816,7 +9824,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 124.46 53.34 0)
 			(effects
 				(font
@@ -9887,13 +9895,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Campo10" ""
+			(at 121.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -9964,7 +9980,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 124.46 40.64 0)
 			(effects
 				(font
@@ -10035,13 +10051,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 121.92 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Campo10" ""
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11545,7 +11569,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 124.46 66.04 0)
 			(effects
 				(font
@@ -11616,13 +11640,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Campo10" ""
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "12"
@@ -11693,7 +11725,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 138.43 124.46 0)
 			(effects
 				(font
@@ -11764,7 +11796,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 135.89 119.38 0)
 			(effects
 				(font
@@ -11841,7 +11873,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 167.64 194.31 0)
 			(effects
 				(font
@@ -11912,7 +11944,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 165.1 189.23 0)
 			(effects
 				(font
@@ -12278,7 +12310,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 138.43 142.24 0)
 			(effects
 				(font
@@ -12349,7 +12381,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 135.89 137.16 0)
 			(effects
 				(font
@@ -12847,7 +12879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP6004"
+		(property "Value" "LMV324IPWR"
 			(at 44.577 67.5132 0)
 			(effects
 				(font
@@ -12919,13 +12951,21 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C248577"
+		(property "LCSC" ""
 			(at 45.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Campo10" ""
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "11"

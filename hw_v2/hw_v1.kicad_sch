@@ -10637,14 +10637,6 @@
 		(uuid "ff0a4494-9a00-4fa7-8401-7afee0c6820d")
 	)
 	(no_connect
-		(at 95.25 137.16)
-		(uuid "07021d22-c080-470b-b241-9289876cf70c")
-	)
-	(no_connect
-		(at 95.25 86.36)
-		(uuid "15c391fa-393c-43b5-a2bd-e9f917a12390")
-	)
-	(no_connect
 		(at 95.25 93.98)
 		(uuid "2acd0901-f751-4940-8d67-56df7513c06e")
 	)
@@ -10661,6 +10653,10 @@
 		(uuid "4c79b7a5-6ffb-4117-8308-d01b7a855591")
 	)
 	(no_connect
+		(at 104.14 116.84)
+		(uuid "575b8a6a-e71c-4574-968e-42a64fe5675d")
+	)
+	(no_connect
 		(at 95.25 142.24)
 		(uuid "57d5080d-b7de-44a1-9dbb-2ddd6696e193")
 	)
@@ -10673,16 +10669,28 @@
 		(uuid "620d39b7-99f3-408c-a853-0c1a4698489a")
 	)
 	(no_connect
-		(at 95.25 83.82)
-		(uuid "6a85df19-4384-4b34-a48e-a907cfcf6a11")
-	)
-	(no_connect
 		(at 95.25 96.52)
 		(uuid "6ea6875a-a304-49b1-9e81-616b5ba24eb5")
 	)
 	(no_connect
+		(at 96.52 106.68)
+		(uuid "714d2350-a1e1-4a07-83c4-c69ec97d7767")
+	)
+	(no_connect
+		(at 35.56 111.76)
+		(uuid "7d15e0b9-9760-4029-bd04-0aba5f93aabd")
+	)
+	(no_connect
+		(at 97.79 104.14)
+		(uuid "909aea24-4383-4bba-b87a-78bad2147e45")
+	)
+	(no_connect
 		(at 95.25 58.42)
 		(uuid "93e87eb2-7f46-42bc-8354-afc49969d79e")
+	)
+	(no_connect
+		(at 97.79 147.32)
+		(uuid "95fb915a-f359-47bd-94b0-8ee37630eeb8")
 	)
 	(no_connect
 		(at 95.25 78.74)
@@ -10723,10 +10731,6 @@
 	(no_connect
 		(at 95.25 111.76)
 		(uuid "f4d8b162-fa4f-4df8-9704-648f27b527e5")
-	)
-	(no_connect
-		(at 95.25 139.7)
-		(uuid "fcf373d7-d514-4d18-8866-bced832d6735")
 	)
 	(wire
 		(pts
@@ -13749,7 +13753,7 @@
 		(uuid "07634809-b4ff-4235-924e-ad05891c5170")
 	)
 	(label "MTR_STEP"
-		(at 35.56 81.28 0)
+		(at 35.56 88.9 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -13769,7 +13773,7 @@
 		(uuid "07b31897-9f2b-45f2-917c-92073e90726a")
 	)
 	(label "ECN4"
-		(at 35.56 144.78 0)
+		(at 35.56 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13789,7 +13793,7 @@
 		(uuid "13ca9044-2af3-4f61-a9de-8682d0654a1b")
 	)
 	(label "INY4"
-		(at 35.56 134.62 0)
+		(at 35.56 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13849,7 +13853,7 @@
 		(uuid "19a3edb3-a1b8-4bad-a4f9-0cb2a0c2fa94")
 	)
 	(label "MTR_FAULT"
-		(at 35.56 86.36 0)
+		(at 35.56 83.82 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -13909,7 +13913,7 @@
 		(uuid "22dbbb03-3e6b-4c09-bc90-f0cf3be56aa7")
 	)
 	(label "ECN1"
-		(at 35.56 137.16 0)
+		(at 35.56 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14029,7 +14033,7 @@
 		(uuid "46827de5-9244-4cb5-9698-b2a5446b20b9")
 	)
 	(label "SPI3_SCk"
-		(at 203.2 39.37 270)
+		(at 200.66 39.37 270)
 		(effects
 			(font
 				(size 0.7874 0.7874)
@@ -14109,7 +14113,7 @@
 		(uuid "5a55e8f6-cdab-49d1-8ab0-c908e42bf9cd")
 	)
 	(label "SW_TABLE_m"
-		(at 35.56 99.06 0)
+		(at 35.56 93.98 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -14119,7 +14123,7 @@
 		(uuid "5dd6e9f9-6b97-4ade-832e-b7fd57127b4e")
 	)
 	(label "ECN3"
-		(at 35.56 142.24 0)
+		(at 35.56 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14127,16 +14131,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f554137-5548-4921-91cf-322e432af7d5")
-	)
-	(label "SD_CS"
-		(at 97.79 147.32 0)
-		(effects
-			(font
-				(size 0.7874 0.7874)
-			)
-			(justify left bottom)
-		)
-		(uuid "60f6047b-245e-48ef-a1c6-35c1125bf723")
 	)
 	(label "VBATT"
 		(at 198.12 76.2 180)
@@ -14189,7 +14183,7 @@
 		(uuid "74948737-5293-4cf7-8bb9-c32b86d2b7c2")
 	)
 	(label "ECN2"
-		(at 35.56 139.7 0)
+		(at 35.56 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14229,7 +14223,7 @@
 		(uuid "80e47739-e162-40c4-b163-648fb8c3fd51")
 	)
 	(label "MTR_DIR"
-		(at 35.56 83.82 0)
+		(at 35.56 86.36 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -14299,7 +14293,7 @@
 		(uuid "91bc703b-9a6c-49ee-aec7-4943b798d159")
 	)
 	(label "INY2"
-		(at 35.56 129.54 0)
+		(at 35.56 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14359,7 +14353,7 @@
 		(uuid "a3cbdac6-f3d8-4779-a676-1f5abdfd15e3")
 	)
 	(label "SD_CS"
-		(at 35.56 111.76 0)
+		(at 95.25 137.16 0)
 		(effects
 			(font
 				(size 0.7874 0.7874)
@@ -14419,12 +14413,12 @@
 		(uuid "addea019-cb90-4d74-a2cb-4fca137f16ee")
 	)
 	(label "MEMORY_CS"
-		(at 104.14 116.84 180)
+		(at 95.25 139.7 0)
 		(effects
 			(font
 				(size 0.8 0.8)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "afc02cad-b3fe-4778-ba78-2760a036a903")
 	)
@@ -14539,7 +14533,7 @@
 		(uuid "cb28382d-12ed-49ff-8ed5-0284a5735949")
 	)
 	(label "INY3"
-		(at 35.56 132.08 0)
+		(at 35.56 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14549,7 +14543,7 @@
 		(uuid "cd52bf54-281e-471a-a934-067ed718f01f")
 	)
 	(label "MTR_ENABLE"
-		(at 35.56 88.9 0)
+		(at 35.56 81.28 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -14589,7 +14583,7 @@
 		(uuid "d95a4c82-9d7c-4af7-b9ce-48a18cfadfe7")
 	)
 	(label "SD_CARD_DETECT"
-		(at 97.79 149.86 0)
+		(at 35.56 91.44 0)
 		(effects
 			(font
 				(size 0.7874 0.7874)
@@ -14609,7 +14603,7 @@
 		(uuid "defd39a8-f29a-468e-808e-6de483144c85")
 	)
 	(label "INY1"
-		(at 35.56 127 0)
+		(at 35.56 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14619,7 +14613,7 @@
 		(uuid "e43740d0-4b5f-4655-923c-b8dc75d35c3e")
 	)
 	(label "SW_AC_m"
-		(at 35.56 93.98 0)
+		(at 35.56 99.06 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -14629,7 +14623,7 @@
 		(uuid "e4fac49f-91d6-4aa8-a1a5-000d6df603bd")
 	)
 	(label "SPI3_MISO"
-		(at 200.66 39.37 270)
+		(at 203.2 39.37 270)
 		(effects
 			(font
 				(size 0.7874 0.7874)
@@ -14997,7 +14991,7 @@
 	)
 	(global_label "BARO_CS"
 		(shape input)
-		(at 97.79 106.68 0)
+		(at 95.25 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15007,7 +15001,7 @@
 		)
 		(uuid "62392f85-78ce-47b2-83d8-19e964dbf232")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.9655 106.68 0)
+			(at 102.4255 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +15035,7 @@
 	)
 	(global_label "ACCL_CS"
 		(shape input)
-		(at 97.79 104.14 0)
+		(at 95.25 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15051,7 +15045,7 @@
 		)
 		(uuid "698c90e6-4f18-4f21-bfc9-0fa39eaee9e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.775 104.14 0)
+			(at 102.235 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19658,6 +19652,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C102673"
+			(at 205.74 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "d6158b82-dedf-4649-a7b3-53674de5b7e4")
 		)
@@ -22049,6 +22052,15 @@
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 82 GPIO, LQFP100"
 			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12345"
+			(at 74.5333 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

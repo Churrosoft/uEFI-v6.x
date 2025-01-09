@@ -7446,6 +7446,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C80500"
+			(at 239.522 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "261051fd-87ba-40f5-b8ee-61c95dde679e")
 		)
@@ -8137,6 +8146,15 @@
 		)
 		(property "Description" "Dual Buffer, Schmitt Triggered, Low-Voltage CMOS"
 			(at 262.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C80500"
+			(at 269.24 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,6 +9719,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C80500"
+			(at 254 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "47d95996-62b3-4aec-ac99-22a3a186e36b")
 		)
@@ -9913,6 +9940,15 @@
 		)
 		(property "Description" "Dual Buffer, Schmitt Triggered, Low-Voltage CMOS"
 			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C80500"
+			(at 237.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11429,6 +11465,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C80500"
+			(at 240.538 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "261051fd-87ba-40f5-b8ee-61c95dde679f")
 		)
@@ -11502,6 +11547,15 @@
 		)
 		(property "Description" "Dual Buffer, Schmitt Triggered, Low-Voltage CMOS"
 			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C80500"
+			(at 257.302 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)

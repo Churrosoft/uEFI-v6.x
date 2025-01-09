@@ -1147,17 +1147,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center -0.508 5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -0.508 5.08) (xy -0.508 10.16) (xy 2.921 10.16)
@@ -1168,6 +1157,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center -0.508 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -4314,7 +4314,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C141427"
+		(property "LCSC" "C3339"
 			(at 92.71 120.65 0)
 			(effects
 				(font

@@ -1873,7 +1873,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1885,7 +1885,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -4269,6 +4269,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C80500"
+			(at 111.76 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cfbe556d-35ff-4fc6-99aa-e797796ca7dc")
 		)
@@ -4299,6 +4308,7 @@
 	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
 		(at 45.72 128.27 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4306,7 +4316,7 @@
 		(dnp yes)
 		(uuid "32c79e58-8739-41c0-86f5-2ba11ab1fa19")
 		(property "Reference" "JP2"
-			(at 44.45 125.73 90)
+			(at 46.99 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4325,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Bridged12"
-			(at 38.735 138.43 0)
+			(at 52.705 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,6 +4537,15 @@
 		)
 		(property "Description" "Dual Buffer, Schmitt Triggered, Low-Voltage CMOS"
 			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C80500"
+			(at 137.16 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,6 +5217,15 @@
 		)
 		(property "Description" "Dual Buffer, Schmitt Triggered, Low-Voltage CMOS"
 			(at 96.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C80500"
+			(at 95.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
